@@ -77,10 +77,10 @@ while win1 != True or win2 !=True:
 			break
 
 	if win1:
-		print("Congratulations!! %s has won!!") % (user1)
+		print("Congratulations!! {} has won!!".format(user1))
 		break
 	elif win2:
-		print("Congratulations!! %s has won!!") % (user2)
+		print("Congratulations!! {} has won!!".format(user2))
 		break
 	elif u>=8:
 		print("Game Draw!!")
